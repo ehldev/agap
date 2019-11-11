@@ -1,0 +1,83 @@
+.owl-carousel .item {
+  /* position: relative; */
+  width: 100vw;
+  height: 80vh;
+  position: relative;
+  margin-top: 8rem;
+}
+
+.owl-carousel.slider-home .item {
+	&::before {
+		content: '';
+		width: 100%;
+		height: 100%;
+		background-color: rgba(14,14,14, .75);
+		position: absolute;
+	}
+}
+
+.item {
+	img {
+		width: auto !important;
+		max-width: 100%;
+	}
+
+	p.text-white {
+		color: rgba($white, .85) !important;
+	}
+}
+
+.owl-carousel .owl-dots,
+.owl-carousel .owl-nav {
+  position: absolute;
+  z-index: 10;
+}
+
+.owl-carousel .owl-dots .owl-dot,
+.owl-carousel .owl-nav [class*="owl-"]:focus {
+  outline: none;
+}
+
+.owl-prev,
+.owl-next,
+.owl-info,
+.owl-dots {
+	background-color: rgba(14,14,14,0.3) !important;
+}
+
+.owl-prev,
+.owl-next {
+	transition: background-color 1s;
+}
+
+.owl-prev:hover,
+.owl-next:hover {
+	background-color: $dark !important;
+}
+
+.owl-info {
+	border-radius: .3rem;
+}
+
+.owl-nav {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	color: white !important;
+	align-self: center !important;
+	top: 50%;
+}
+
+.owl-dots {
+	width: 100%;
+	align-self: flex-end !important;
+}
+
+.owl-carousel .owl-nav button.owl-prev, 
+.owl-carousel .owl-nav button.owl-next {
+	margin: 0 3rem !important;
+	@media (max-width: 576px) {
+		margin: 0 !important;
+	}
+	padding: .5rem 1rem !important;
+}

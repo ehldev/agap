@@ -1,0 +1,24 @@
+.form-contact.card
+  .card-body.p-3
+    h2.subtitle Contacto
+    p.text-muted Si tiene alguna pregunta, solo complete el formulario de contacto y le responderemos en breve.
+    form(action="").d-flex.flex-column.mt-3
+        .row
+            .col
+                .form-group
+                  <input type="text" class="form-control" placeholder="Asunto">
+            .col
+                .form-group
+                  input(type="text", placeholder="Nombre completo").form-control
+        .row
+            .col
+                .form-group
+                    <input type="number" class="form-control" placeholder="Teléfono">
+            .col
+                .form-group
+                    <input type="email" class="form-control" placeholder="Correo electrónico">
+        .form-group
+            textarea(placeholder="Escriba su mensaje").form-control
+        .align-self-end
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+          input(type="submit").btn.btn-success

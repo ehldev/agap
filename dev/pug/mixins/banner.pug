@@ -1,0 +1,7 @@
+mixin banner(title, description, img)
+	section(style='background-image: url(' + img + ');').banner.text-center
+			.banner-content.w-100.h-100.d-flex.flex-column.justify-content-center.align-items-center.p-3
+				h1.title= title
+				p.mt-1.mb-4= description
+				.d-flex.justify-content-center.align-items-center.mb-5
+					a(href="cursos.html").btn.btn-success.mx-2 Ver cursos

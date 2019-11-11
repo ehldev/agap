@@ -1,0 +1,11 @@
+extends layout/template.pug
+
+block main
+    include sections/header.pug
+    include mixins/banner.pug
+    .gallery.container
+        .row
+            .col-md-12.text-center
+                h2.subtitle Galería Agap
+                include components/gallery.pug
+    include sections/footer.pug

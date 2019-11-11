@@ -1,0 +1,1 @@
+ScrollReveal().reveal('.sweetbox-item', { delay: 500 });

@@ -1,0 +1,16 @@
+extends layout/template.pug
+
+block main
+    include sections/header.pug
+    .container.contact
+        .row
+            .col-md-6
+                include components/form_contact.pug
+            <div class="col-md-6 mt-1 d-flex flex-column justify-content-around">
+                <p class="mt-5 p-3 bg-success text-white w-100 rounded">También puedes contactarnos por los siguientes medios. </p>
+                <p class="p-1 bg-light text-muted"><span class="icon d-inline-block mr-3"><i class="fas fa-phone"></i></span><span>+56 979457917</span></p>
+                <p class="p-1 bg-light text-muted"><span class="mr-2 icon mr-3"><i class="fas fa-phone"></i></span><span>+56 959206529</span></p>
+                <p class="p-1 bg-light text-muted"><span class="mr-2 icon mr-3"><i class="far fa-envelope"></i></span><span>agap@mail.com</span></p>
+                <div class="social"><a class=" p-1 bg-light" href="https://www.facebook.com/agap.capacitaciones/", target="_blank"><span class="icon"><i class="fab fa-facebook-f"></i></span></a><a class="d-inline-block p-1 bg-light" href="https://api.whatsapp.com/send?56979457917=numero&text=Hola quiero recibir información sobre sus cursos", target="_blank"><span class="icon"><i class="fab fa-whatsapp"></i></span></a><a class="d-inline-block p-1 bg-light" href="https://twitter.com/agap_capacita" target="_blank"><span class="icon"><i class="fab fa-twitter"></i></span></a><a class="d-inline-block p-1 bg-light" href="https://www.instagram.com/agap.capacitaciones/", target="_blank"><span class="icon"><i class="fab fa-instagram"></i></span></a></div>
+            </div>
+    include sections/footer.pug
