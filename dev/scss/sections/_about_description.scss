@@ -1,23 +1,16 @@
 .about-description {
 	margin-top: 7rem;
+    
+    .slide {
+        position: static;
+    }
 
-	.subtitle {
-		margin-top: 8rem;
-	}
+    .carousel-indicators {
+        bottom: -15px;
+        left: 0;
+    }
 
-	.owl-carousel .item {
-	  margin-top: 0rem;
-	}
-
-	.col-md-6 .owl-carousel {
-		cursor: pointer;
-	}
-
-	.owl-nav {
-		display: none;
-	}
-
-	.owl-dots {
-		background-color: #f8f9fa !important;
-	}
+    .carousel-indicators {
+        background-color: rgba($dark, .15);
+    }
 }

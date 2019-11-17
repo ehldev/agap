@@ -8,3 +8,7 @@ body {
 	background-color: #fff;
 	font-family: $main_font;
 }
+
+iframe {
+	min-width: 0 !important;
+}

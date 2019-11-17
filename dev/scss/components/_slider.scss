@@ -1,7 +1,9 @@
-.owl-carousel .item {
-  /* position: relative; */
+.owl-carousel.slider-home .item {
   width: 100vw;
   height: 80vh;
+  @media (min-width: 768px) and (max-width: 1024px) {
+	height: 50vh;
+  }
   position: relative;
   margin-top: 8rem;
 }

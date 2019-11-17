@@ -3,7 +3,7 @@ $('.owl-carousel').owlCarousel({
     loop:true,
     // nav:true,
     autoWidth: true,
-    autoplay: false,
+    autoplay: true,
     mouseDrag: true,
     dots: true,
     dotsEach: true,
@@ -14,3 +14,5 @@ $('.owl-carousel').owlCarousel({
 	'<i class="fas fa-chevron-right"></i>'
 	]
 })
+
+$('.carousel').carousel()

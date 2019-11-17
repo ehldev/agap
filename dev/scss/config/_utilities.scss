@@ -13,6 +13,9 @@
 
 .subtitle {
 	font-size: 1.6em;
+	@media (max-width: 768px) {
+		font-size: 1.3em;
+	}
 	position: relative;
 	padding-top: .9rem;
 	display: inline-block;

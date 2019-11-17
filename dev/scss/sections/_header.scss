@@ -14,6 +14,14 @@
 	.text-muted {
 		font-size: 14px;
 	}
+
+	.top-menu-info {
+		@media (max-width: 320px) {
+			span {
+				font-size: .9em;
+			}
+		}
+	}
 }
 
 .nav-link {

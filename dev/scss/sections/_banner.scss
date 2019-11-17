@@ -1,6 +1,9 @@
 .banner {
 	color: white;
 	height: 75vh;
+	@media (min-width: 768px) and (max-width: 1024px) {
+		height: 50vh;
+	}
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
