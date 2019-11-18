@@ -1,7 +1,8 @@
 .footer {
 	@media (max-width: 768px) {
-		span {
-			font-size: .75em;
+
+		.text-muted, span {
+			font-size: .78em;
 		}
 	}
 	margin-top: 7rem;
