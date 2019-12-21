@@ -2,6 +2,9 @@
 @import 'bootstrap/scss/bootstrap.scss';
 @import 'config/main';
 @import 'config/utilities';
+@import 'mixins/social_icons';
+
+
 @import 'components/buttons';
 @import 'components/sweetbox';
 @import 'components/gallery';
@@ -9,6 +12,7 @@
 @import 'components/owl.theme.default';
 @import 'components/slider';
 @import 'components/modal';
+
 @import 'sections/header';
 @import 'sections/banner';
 @import 'sections/features';

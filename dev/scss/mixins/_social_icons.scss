@@ -1,0 +1,7 @@
+@mixin icon-social($colorLink) {
+    color: rgba($colorLink, .85);
+
+    &:hover {
+        color: $colorLink;
+    }
+}
